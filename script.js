@@ -1,3 +1,5 @@
+
+/* json questions store*/ 
 const questions = [
     {
       question: 'What does JavaScript stand for?',
@@ -75,6 +77,7 @@ function loadNextQuestion() {
             optionsList.appendChild(li);
         });
     } else {
+        // All questions are answered
         showFinalScore();
     }
 }
